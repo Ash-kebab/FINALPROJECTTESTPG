@@ -5,7 +5,10 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>FRC-101</h1>
+  <div class="header">
+<img class= "ico" src="grid.png" onclick="openNav();">  
+<h1 class = "title" >FRC-101</h1>
+</div>
 <div class="navbar">
 
  <div id="mySidenav" class="sidenav">
@@ -17,7 +20,7 @@
   </div>
 
 <!-- Use any element to open the sidenav -->
-<span onclick="openNav()">open</span>
+
 
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 <div id="main">
@@ -37,7 +40,6 @@
 <script>
     /* Set the width of the side navigation to 250px */
 function openNav() {
-    alert("Made it");
   document.getElementById("mySidenav").style.width = "250px";
 }
 
