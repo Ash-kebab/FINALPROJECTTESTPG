@@ -167,3 +167,17 @@ height:30%;
 padding-left: 32px;
 
 }
+h1{
+  padding-left: 32px;
+}
+
+a{
+text-decoration: none;
+
+
+}
+a:active{
+text-decoration-color: #ffffff;
+color: inherit;
+
+}
